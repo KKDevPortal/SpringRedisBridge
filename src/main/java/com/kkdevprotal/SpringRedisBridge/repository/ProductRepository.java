@@ -17,20 +17,23 @@ public class ProductRepository {
     private RedisTemplate<String, Object> template;
 
     public Product save(Product product) {
-        System.out.println("Product to be saved : " + product.toString());
+        System.out.println("Product to be saved in db: " + product.toString());
         template.opsForHash().put(HASH_KEY, product.getId(), product);
         return product;
     }
 
     public List<Object> finalAll() {
+        System.out.println("Finding all product from db ...");
         return template.opsForHash().values(HASH_KEY);
     }
 
     public Product findProductById(int id) {
+        System.out.println("Finding product by id from db : " + id);
         return (Product) template.opsForHash().get(HASH_KEY, id);
     }
 
     public String deleteProduct(int id) {
+        System.out.println("Product to be deleted by id in db: " + id);
         template.opsForHash().delete(HASH_KEY, id);
 
         return "Product removed";
