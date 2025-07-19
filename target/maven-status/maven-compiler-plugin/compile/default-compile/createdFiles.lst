@@ -1,1 +1,6 @@
+com/kkdevprotal/SpringRedisBridge/entity/Product.class
+com/kkdevprotal/SpringRedisBridge/config/RedisConfig.class
+com/kkdevprotal/SpringRedisBridge/service/ProductService.class
+com/kkdevprotal/SpringRedisBridge/repository/ProductRepository.class
 com/kkdevprotal/SpringRedisBridge/SpringRedisBridgeApplication.class
+com/kkdevprotal/SpringRedisBridge/controller/ProductController.class

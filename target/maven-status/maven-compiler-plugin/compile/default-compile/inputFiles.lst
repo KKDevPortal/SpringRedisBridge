@@ -1,1 +1,6 @@
 /home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/SpringRedisBridgeApplication.java
+/home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/config/RedisConfig.java
+/home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/controller/ProductController.java
+/home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/entity/Product.java
+/home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/repository/ProductRepository.java
+/home/stardust/workingdir/kkdevportal/SpringRedisBridge/src/main/java/com/kkdevprotal/SpringRedisBridge/service/ProductService.java
